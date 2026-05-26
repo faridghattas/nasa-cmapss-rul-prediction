@@ -13,7 +13,7 @@ Instead of deploying a single out-of-the-box model, this project represents a **
 | :--- | :--- | :--- | :--- | :---: | :---: |
 | **V1.0** | Random Forest (Baseline) | MinMaxScaler | Raw Calculated RUL Target | 33.60 | - |
 | **V2.0** | Random Forest (Optimized) | RobustScaler | Target Clipping Optimization (**RUL <= 153**) | 17.84 | 13.09 |
-| **V3.0** | **Deep Learning (2x LSTM)** | StandardScaler | Time-Step Sequences (**Window Size = 30**) | **17.14** | **12.77** |
+| **V3.0** | **Deep Learning (2x LSTM)** | StandardScaler | Time-Step Sequences (**Window Size = 30**) | **17.62** | **13.23** |
 
 ---
 
@@ -43,7 +43,7 @@ Instead of deploying a single out-of-the-box model, this project represents a **
   * `LSTM (32 units)` + `Dropout(0.4)`
   * `Dense (64, ReLU)` -> `Dense (32, ReLU)` -> `Dense (1, Linear Output)`
 * **Training Dynamics:** Implemented `EarlyStopping` (patience=5 monitoring validation loss) to prevent overfitting.
-* **Outcome:** Achieved a highly robust Deep Learning **RMSE of 17.14**, proving the model's ability to extract automated temporal features from complex physical sensor arrays.
+* **Outcome:** Achieved a highly robust Deep Learning **RMSE of 17.62**, proving the model's ability to extract automated temporal features from complex physical sensor arrays.
 * **Results Visualization:**
 ![LSTM Actual vs Predicted](assets/lstm_actual_vs_predicted.png)
 ![RMSE Optimization Curve](assets/rmse_optimization_curve.png)
