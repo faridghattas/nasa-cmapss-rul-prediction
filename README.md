@@ -31,7 +31,6 @@ Instead of deploying a single out-of-the-box model, this project represents a **
 * **Key Discovery:** Capping the maximum target RUL at **153 cycles** combined with **RobustScaler** proved to be the absolute optimal sweet spot.
 * **Outcome:** Slashed the RMSE down to **17.84** (a 47% improvement), while maintaining a remarkably low RMSE of **15.08** for engines nearing critical failure points (< 50 cycles remaining).
 * **Results Visualization:**
-
 ![RMSE_vs_RUL_Threshold_(Full_Range)](assets/RMSE_vs_RUL_Threshold_(Full_Range).png)
 ![Zoom_(150_155) Region](assets/Zoom_(150-155)_Region.png)
 
