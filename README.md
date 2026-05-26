@@ -33,6 +33,9 @@ Instead of deploying a single out-of-the-box model, this project represents a **
 * **Results Visualization:**
 ![RMSE_vs_RUL_Threshold_(Full_Range)](assets/RMSE_vs_RUL_Threshold_(Full_Range).png)
 ![Zoom_(150_155) Region](assets/Zoom_(150-155)_Region.png)
+* **Results Visualization:**
+![RMSE_vs_RUL_Threshold_(Full_Range)](assets/RMSE_vs_RUL_Threshold_(Full_Range).png)
+
 
 ### 🔹 Version 3.0: Transitioning to Deep Learning (LSTM Recurrent Neural Networks)
 * **Objective:** Capture the temporal, cumulative sequence of sensor degradation rather than treating cycles as independent tabular rows.
