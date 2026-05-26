@@ -31,8 +31,8 @@ Instead of deploying a single out-of-the-box model, this project represents a **
 * **Key Discovery:** Capping the maximum target RUL at **153 cycles** combined with **RobustScaler** proved to be the absolute optimal sweet spot.
 * **Outcome:** Slashed the RMSE down to **17.84** (a 47% improvement), while maintaining a remarkably low RMSE of **15.08** for engines nearing critical failure points (< 50 cycles remaining).
 * **Results Visualization:**
-![RMSE Optimization Curve](assets/rmse_optimization_curve.png)
-![RMSE Optimization Curve](assets/rmse_optimization_curve.png)
+![RMSE_vs_RUL_Threshold_(Full_Range)](assets/RMSE_vs_RUL_Threshold_(Full_Range).png)
+![Zoom_(150_155 )_Region](assets/Zoom_(150_155 )_Region.png)
 
 ### 🔹 Version 3.0: Transitioning to Deep Learning (LSTM Recurrent Neural Networks)
 * **Objective:** Capture the temporal, cumulative sequence of sensor degradation rather than treating cycles as independent tabular rows.
